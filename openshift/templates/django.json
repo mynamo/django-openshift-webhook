@@ -2,7 +2,7 @@
   "kind": "Template",
   "apiVersion": "v1",
   "metadata": {
-    "name": "django-example",
+    "name": "django-webhook",
     "annotations": {
       "openshift.io/display-name": "Django",
       "description": "An example Django application with no database. For more information about using this template, including OpenShift considerations, see https://github.com/sclorg/django-ex/blob/master/README.md.",
@@ -16,10 +16,10 @@
     }
   },
   "labels": {
-      "template": "django-example",
-      "app": "django-example"
+      "template": "django-webhook",
+      "app": "django-webhook"
   },
-  "message": "The following service(s) have been created in your project: django-webhook.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/sclorg/django-ex/blob/master/README.md.",
+  "message": "The following service(s) have been created in your project: ${NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/sclorg/django-ex/blob/master/README.md.",
   "objects": [
     {
       "kind": "Secret",
@@ -115,7 +115,7 @@
         "output": {
           "to": {
             "kind": "ImageStreamTag",
-            "name": ""django-webhook":latest"
+            "name": "django-webhook:latest"
           }
         },
         "triggers": [
@@ -161,7 +161,7 @@
               ],
               "from": {
                 "kind": "ImageStreamTag",
-                "name": ""django-webhook":latest"
+                "name": "django-webhook:latest"
               }
             }
           },
