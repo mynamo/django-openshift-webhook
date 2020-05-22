@@ -19,7 +19,7 @@
       "template": "django-example",
       "app": "django-example"
   },
-  "message": "The following service(s) have been created in your project: "django-webhook".\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/sclorg/django-ex/blob/master/README.md.",
+  "message": "The following service(s) have been created in your project: django-webhook.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/sclorg/django-ex/blob/master/README.md.",
   "objects": [
     {
       "kind": "Secret",
