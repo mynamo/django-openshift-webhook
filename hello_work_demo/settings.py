@@ -25,7 +25,7 @@ SECRET_KEY = '7x+(24+rr^223ykoigz^=n@fs-cbrj+!1cs#^*ff(6xz4h0!6k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.128.4.61', '172.30.70.95', '174.128.191.1', '10.129.7.107', 'django-webhook-django-hello-demo-2.apps.shared.na.openshift.opentlc.com', '10.131.7.39','172.30.203.229','81.0.4044.138', '172.30.0.1', '10.131.4.86','127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['104.32.167.137','django-example-django-app-deploy-demo.apps.shared.na.openshift.opentlc.com', '172.30.37.172','10.128.4.61', '172.30.70.95', '174.128.191.1', '10.129.7.107', 'django-webhook-django-hello-demo-2.apps.shared.na.openshift.opentlc.com', '10.131.7.39','172.30.203.229','81.0.4044.138', '172.30.0.1', '10.131.4.86','127.0.0.1', 'localhost']
 
 
 # Application definition
